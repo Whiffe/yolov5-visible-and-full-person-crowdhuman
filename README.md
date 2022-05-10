@@ -13,24 +13,39 @@ Download Link:  [crowdhuman_vbody_yolov5m.pt](https://drive.google.com/file/d/1V
 <br/>
 
 
+## Install
+
+```bash
+git clone https://github.com/Whiffe/yolov5-visible-and-full-person-crowdhuman.git
+cd yolov5
+pip install -r requirements.txt 
+pip install opencv-python-headless==4.1.2.30
+mkdir -p /root/.config/Ultralytics
+wget  https://ultralytics.com/assets/Arial.ttf -O /root/.config/Ultralytics/Arial.ttf
+
+```
 
 ## Test
 
 ```bash
-python detect.py --weights crowdhuman_vbody_yolov5m.pt --source _test/ --view-img
+python ./detect.py --weights ./crowdhuman_vbody_yolov5m.pt --source ./1.jpeg --save-txt --save-conf
+
 
 ```
   
   
-## Test (Only Person Class)
+## Test (Only Visible Person Class)
 
 ```bash
-python3 detect.py --weights crowdhuman_vbody_yolov5m.pt --source _test/ --view-img  --person
+python ./detect.py --weights ./crowdhuman_vbody_yolov5m.pt --source ./1.jpeg --save-txt --save-conf --classes 1
+
+
 ```
 
   
 ## Test (Only Heads)
 
 ```bash
-python3 detect.py --weights crowdhuman_vbody_yolov5m.pt --source _test/ --view-img  --heads
+python ./detect.py --weights ./crowdhuman_vbody_yolov5m.pt --source ./1.jpeg --save-txt --save-conf --classes 0
+
 ```
