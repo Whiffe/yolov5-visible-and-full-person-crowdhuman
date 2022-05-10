@@ -17,7 +17,7 @@ Download Link:  [crowdhuman_vbody_yolov5m.pt](https://drive.google.com/file/d/1V
 
 ```bash
 git clone https://github.com/Whiffe/yolov5-visible-and-full-person-crowdhuman.git
-cd yolov5
+cd yolov5-visible-and-full-person-crowdhuman
 pip install -r requirements.txt 
 pip install opencv-python-headless==4.1.2.30
 mkdir -p /root/.config/Ultralytics
