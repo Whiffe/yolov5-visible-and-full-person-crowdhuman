@@ -1,7 +1,7 @@
 ## Relevant Information
 CSDN:[https://blog.csdn.net/WhiffeYF/article/details/124502681](https://blog.csdn.net/WhiffeYF/article/details/124502681)
-Zhihu:
-bilibili:
+Zhihu:x
+bilibili:x
 
 ##  Head & Visble Person Detection Model 
 
