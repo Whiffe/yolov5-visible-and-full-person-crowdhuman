@@ -1,3 +1,8 @@
+## Relevant Information
+CSDN:[https://blog.csdn.net/WhiffeYF/article/details/124502681](https://blog.csdn.net/WhiffeYF/article/details/124502681)
+Zhihu:
+bilibili:
+
 ##  Head & Visble Person Detection Model 
 
 ### Download model trained on crowd human using yolov5(m) architeture
